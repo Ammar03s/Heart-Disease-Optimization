@@ -77,7 +77,7 @@ In this file we’ll be training a neural network using particle swarm optimizat
 
 ## Conclusion
 
-This project demonstrates the effectiveness of various machine learning models and optimization techniques in predicting heart disease. The use of data visualization helped in understanding our dataset better, and the optimization techniques significantly improved our model performance.
+This project demonstrates the effectiveness of various ML models and optimization techniques in predicting heart disease. The use of data visualization helped in understanding our dataset better, and the optimization techniques significantly improved our model performance.
 
 
 
