@@ -48,7 +48,12 @@ Various optimization techniques were applied to improve the neural network model
 - **Simulated Annealing (SA)**
 - **Gradient Descent (GD)**
 - **Hill Climbing**
-
+  
+With 3 optimization problems:
+- **One Max**
+- **Flip Flop**
+- **Knapsack**
+  which have been used in our randomized_optimization Notebook
 
 | Method                    | Accuracy | Sensitivity | Specificity | AUC  |
 |---------------------------|----------|-------------|-------------|------|
