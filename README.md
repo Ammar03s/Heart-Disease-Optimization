@@ -3,15 +3,10 @@
 ## Table of Contents
 - [Dataset](#Dataset)
 - [Project Overview](#project-overview)
-- [Repository Structure](#repository-structure)
 - [Data Visualization](#data-visualization)
-  - [Key Visualizations and Insights](#key-visualizations-and-insights)
 - [MLP and CNN Models](#mlp-and-cnn-models)
-  - [Results](#results)
 - [Optimization Techniques](#optimization-techniques)
-  - [Results](#optimization-results)
 - [Swarm Optimization](#swarm-optimization)
-  - [Results](#swarm-results)
 - [Conclusion](#conclusion)
 - [Accuracy Summary](#accuracy-summary)
 
@@ -26,17 +21,9 @@ This repository contains a comprehensive analysis and machine learning modeling 
 3. **Optimization Techniques**: Application of various optimization algorithms: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models.
 4. **Swarm Optimization**: Utilizing Swarm Optimization to update the weights of a neural network with one hidden layer.
 
-## Repository Structure
-
-- `Visualizing_Dataset.ipynb`: Contains code for data visualization and exploratory analysis.
-- `Mlp_vs_Cnn.ipynb`: Implementation and comparison of MLP and CNN models.
-- `neural_network_weight_optimization.ipynb`: Various optimization techniques applied to neural network models.
-- `swarm_optimization.ipynb`: Swarm Optimization for neural network weight updates (not included).
-
 ## Data Visualization
 
-The dataset used in this analysis is the heart disease dataset which includes various features such as age, sex, chest pain type, resting blood pressure, cholesterol, and more.
-
+in this notebook we explored our dataset that we analyzed to gain more knowledge on what we are working on which includes various features such as age, sex, chest pain type, resting blood pressure, cholesterol, and more.
 ### Key Visualizations and Insights
 
 - **Target Distribution**: Distribution of the target variable indicating the presence of heart disease.
