@@ -44,8 +44,18 @@ Various optimization techniques were applied to improve the neural network model
 - **Gradient Descent (GD)**
 - **Hill Climbing**
 
+
+| Method                    | Accuracy | Sensitivity | Specificity | AUC  |
+|---------------------------|----------|-------------|-------------|------|
+| Gradient Descent (GD)     | 84%      | 88%         | 79%         | 83%  |
+| Genetic Algorithm (GA)    | 54%      | 17%         | 99%         | 58%  |
+| Simulated Annealing (SA)  | 84%      | 92%         | 75%         | 83%  |
+| Hill Climbing (HC)        | 84%      | 89%         | 79%         | 84%  |
+
+
 The optimization shows that Gradient Descent (GD) and Randomized Hill Climbing (RHC) performs almost the same with high accuracy and balanced specificity and sensitivity. While in Simulated annealing (SA) got the highest sensitivity, indicating its ability to correctly identify the positive cases, which is important for applications where false negatives are costly. However, Simulated annealing 's (SA) specificity is slightly lower, suggesting a higher rate of false positives. On the other hand, we got Genetic Algorithm (GA) shows the poorest and worst performance among all with low accuracy and sensitivity, despite its high specificity, indicating it is better at identifying true negatives but fails to capture the true positives effectively even the AUC for it is considered as low. Keep in mind that GD, SA, and RHC all show reasonably high AUC %, which demonstrates their effectiveness in distinguishing between the classes.
 Overall, while GD and RHC are considered both good choices for our application, GA is the least effective one, especially in tasks requiring high sensitivity like our heart dataset which makes it unsuitable for us. Which takes us to SA, which stands out to be the best Algorithm we got out of all of them for our application.
+
 
 Note: in order to runt this we have to run the randomized_optimziation.ipynb that could take a long time to finish computing sometimes (~2 hours) depending on hardware specs.
 then open up the neural_network_weight_optimization, please note that the problems may take a long time to finish computing sometimes (~30) depending on hardware specs.
