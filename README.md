@@ -57,7 +57,7 @@ The optimization shows that Gradient Descent (GD) and Randomized Hill Climbing (
 Overall, while GD and RHC are considered both good choices for our application, GA is the least effective one, especially in tasks requiring high sensitivity like our heart dataset which makes it unsuitable for us. Which takes us to SA, which stands out to be the best Algorithm we got out of all of them for our application.
 
 
-##Note: in order to runt this we have to run the randomized_optimziation.ipynb that could take a long time to finish computing sometimes (~2 hours) depending on hardware specs.
+**Note**: in order to runt this we have to run the randomized_optimziation.ipynb that could take a long time to finish computing sometimes (~2 hours) depending on hardware specs.
 then open up the neural_network_weight_optimization, please note that the problems may take a long time to finish computing sometimes (~30) depending on hardware specs.
 
 ## Swarm Optimization
