@@ -1,7 +1,7 @@
 # Heart Disease Analysis Repository
 
 ## Table of Contents
-- [Dataset](#Dataset:)
+- [Dataset](#Dataset)
 - [Project Overview](#project-overview)
 - [Repository Structure](#repository-structure)
 - [Data Visualization](#data-visualization)
@@ -15,7 +15,7 @@
 - [Conclusion](#conclusion)
 - [Accuracy Summary](#accuracy-summary)
 
-##Dataset:
+##Dataset
 https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
 
 ## Project Overview
