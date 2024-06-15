@@ -5,7 +5,7 @@
 - [Project Overview](#project-overview)
 - [Data Visualization](#data-visualization)
 - [MLP and CNN Models](#mlp-and-cnn-models)
-- [neural network weight optimization](#neural-network-weight-optimization)
+- [neural network weight optimization](#Neural-Network-weight-optimization)
 - [Swarm Optimization](#swarm-optimization)
 - [Conclusion](#conclusion)
 - [Accuracy Summary](#accuracy-summary)
@@ -18,7 +18,7 @@ https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
 This repository contains a comprehensive analysis and machine learning modeling and some optimization algorithms for a heart disease dataset. The project is divided into several parts:
 1. **Data Visualization**: Exploratory data analysis and visualization to understand our dataset.
 2. **MLP and CNN Models**: Implementation and comparison of Multi-Layer Perceptron (MLP) and Convolutional Neural Network (CNN) models.
-3. **Optimization Techniques**: Application of various optimization algorithms: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models.
+3. **Neural Network weight optimization**: Application of various optimization algorithms: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models.
 4. **Swarm Optimization**: Utilizing Swarm Optimization to update the weights of a neural network with one hidden layer.
 
 ## Data Visualization
@@ -35,7 +35,7 @@ in this notebook we explored our dataset that we analyzed to gain more knowledge
 
 We implemented and compared the performance of MLP and CNN models on the heart disease dataset. and found out that even that the MLP got slightly higher accuracy but its not actually better because when we check the graph in the end of the notebook we can see that the validation and the training got a gap between them which means its overfitting therfefore CNN is better
 
-## neural network weight optimization
+## Neural Network weight optimization
 ## randomized_optimziation
 Various optimization techniques were applied to improve the neural network models:
 
@@ -48,7 +48,7 @@ The optimization shows that Gradient Descent (GD) and Randomized Hill Climbing (
 Overall, while GD and RHC are considered both good choices for our application, GA is the least effective one, especially in tasks requiring high sensitivity like our heart dataset which makes it unsuitable for us. Which takes us to SA, which stands out to be the best Algorithm we got out of all of them for our application.
 
 Note: in order to runt this we have to run the randomized_optimziation.ipynb that could take a long time to finish computing sometimes (~2 hours) depending on hardware specs.
-then open up the neural_network_weight_optimization. please note that the problems may take a long time to finish computing sometimes (~30) depending on hardware specs.
+then open up the neural_network_weight_optimization, please note that the problems may take a long time to finish computing sometimes (~30) depending on hardware specs.
 
 ## Swarm Optimization
 
