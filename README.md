@@ -16,14 +16,14 @@ https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
 ## Project Overview
 
 This repository contains a comprehensive analysis and machine learning modeling and some optimization algorithms for a heart disease dataset. The project is divided into several parts:
-1. **Data Visualization**: Exploratory data analysis and visualization to understand our dataset.
+1. **Data Visualization**: Exploratory data analysis and visualization to understand the data we are dealing with.
 2. **MLP and CNN Models**: Implementation and comparison of Multi-Layer Perceptron (MLP) and Convolutional Neural Network (CNN) models.
-3. **Neural Network weight optimization**: Application of various optimization algorithms: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models.
-4. **Swarm Optimization**: Utilizing Swarm Optimization to update the weights of a neural network with one hidden layer.
+3. **Neural Network weight optimization**: Application of various optimization algorithmsand comparing them: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models (which we will need to run the randomized_optimization notebook).
+4. **Swarm Optimization**: Utilizing Swarm Optimization to update the weights of a neural network with 1 hidden layer.
 
 ## Data Visualization
 
-in this notebook we explored our dataset that we analyzed to gain more knowledge on what we are working on which includes various features such as age, sex, chest pain type, resting blood pressure, cholesterol, and more.
+In this notebook we explored our dataset that we analyzed to gain more knowledge on what we are working on which includes various features such as age, sex, chest pain type, resting blood pressure, cholesterol, and more.
 ### Key Visualizations and Insights
 
 - **Target Distribution**: Distribution of the target variable indicating the presence of heart disease.
