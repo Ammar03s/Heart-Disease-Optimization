@@ -30,13 +30,13 @@ In this notebook we explored our dataset that we analyzed to gain more knowledge
 - **Age vs. Max Heart Rate**: Scatter plot showing the relationship between age and maximum heart rate, colored by the presence of heart disease.
 - **Correlation Heatmap**: Heatmap revealing correlations between different features.
 - **Sex and Heart Disease**: Comparison of heart disease prevalence between males and females.
-
+**Note**: each graph have been explained breifly in the Notebook.
+  
 ## MLP and CNN Models
 
 We implemented and compared the performance of MLP and CNN models on the heart disease dataset. and found out that even that the MLP got slightly higher accuracy but its not actually better because when we check the graph in the end of the notebook we can see that the validation and the training got a gap between them which means its overfitting therfefore CNN is better
 
 ## Neural Network weight optimization
-## randomized_optimziation
 Various optimization techniques were applied to improve the neural network models:
 
 - **Genetic Algorithm (GA)**
