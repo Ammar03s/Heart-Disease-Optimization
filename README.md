@@ -8,7 +8,7 @@
 - [neural network weight optimization](#Neural-Network-weight-optimization)
 - [Swarm Optimization](#swarm-optimization)
 - [Conclusion](#conclusion)
-- [Accuracy Summary](#accuracy-summary)
+- [Accuracy Summary](#accuracy)
 
 ## Dataset
 https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
@@ -72,7 +72,7 @@ This project demonstrates the effectiveness of various machine learning models a
 
 
 
-## Accuracy Summary
+## Accuracy
 
 | Model/Technique              | Accuracy |
 |------------------------------|----------|
