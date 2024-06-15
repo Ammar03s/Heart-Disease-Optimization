@@ -2,9 +2,9 @@
 
 ## Table of Contents
 - [Dataset](#Dataset)
-- [Project Overview](#project-overview)
+- [Project Overview](#overview)
 - [Data Visualization](#data-visualization)
-- [MLP and CNN Models](#mlp-and-cnn-models)
+- [MLP and CNN Models](#mlp-and-cnn)
 - [neural network weight optimization](#Neural-Network-weight-optimization)
 - [Swarm Optimization](#swarm-optimization)
 - [Conclusion](#conclusion)
@@ -13,7 +13,7 @@
 ## Dataset
 https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
 
-## Project Overview
+## Overview
 
 This repository contains a comprehensive analysis and machine learning modeling and some optimization algorithms for a heart disease dataset. The project is divided into several parts:
 1. **Data Visualization**: Exploratory data analysis and visualization to understand the data we are dealing with.
@@ -32,7 +32,7 @@ In this notebook we explored our dataset that we analyzed to gain more knowledge
 - **Sex and Heart Disease**: Comparison of heart disease prevalence between males and females.
 **Note**: each graph have been explained breifly in the Notebook.
   
-## MLP and CNN Models
+## MLP and CNN
 
 We implemented and compared the performance of MLP and CNN models on the heart disease dataset. and found out that even that the MLP got slightly higher accuracy but its not actually better because when we check the graph in the end of the notebook we can see that the validation and the training got a gap between them which means its overfitting therfefore CNN is better
 
