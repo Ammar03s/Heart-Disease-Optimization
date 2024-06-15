@@ -67,8 +67,8 @@ This project demonstrates the effectiveness of various machine learning models a
 |------------------------------|----------|
 | MLP Model                    | 90%      |
 | CNN Model                    | 89%      |
-| Genetic Algorithm (GA)       | 89%      |
-| Simulated Annealing (SA)     | 88%      |
-| Gradient Descent (GD)        | 88%      |
-| Hill Climbing                | 87%      |
-| Swarm Optimization           | 91%      |
+| Genetic Algorithm (GA)       | 54%     |
+| Simulated Annealing (SA)     | 84%      |
+| Gradient Descent (GD)        | 84%     |
+| Hill Climbing                | 84%     |
+| Swarm Optimization           | 86%      |
