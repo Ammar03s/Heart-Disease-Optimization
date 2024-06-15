@@ -17,10 +17,10 @@
 
 ## Project Overview
 
-This repository contains a comprehensive analysis and machine learning modeling of a heart disease dataset. The project is divided into several parts:
-1. **Data Visualization**: Exploratory data analysis and visualization to understand the dataset.
+This repository contains a comprehensive analysis and machine learning modeling and some optimization algorithms for a heart disease dataset. The project is divided into several parts:
+1. **Data Visualization**: Exploratory data analysis and visualization to understand our dataset.
 2. **MLP and CNN Models**: Implementation and comparison of Multi-Layer Perceptron (MLP) and Convolutional Neural Network (CNN) models.
-3. **Optimization Techniques**: Application of various optimization algorithms such as Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models.
+3. **Optimization Techniques**: Application of various optimization algorithms: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models.
 4. **Swarm Optimization**: Utilizing Swarm Optimization to update the weights of a neural network with one hidden layer.
 
 ## Repository Structure
