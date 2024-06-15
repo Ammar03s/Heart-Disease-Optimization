@@ -1,4 +1,4 @@
-# Heart Disease Analysis Repository
+# Heart Satalog 
 
 ## Table of Contents
 - [Dataset](#Dataset)
