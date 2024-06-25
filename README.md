@@ -24,7 +24,7 @@ This repository contains a comprehensive analysis and machine learning modeling 
 
 ## Data Visualization
 
-In this notebook we explored our dataset that we analyzed to gain more knowledge on what we are working on which includes various features such as age, sex, chest pain type, resting blood pressure, cholesterol, and more.
+In this notebook we created some simple visualization on our dataset that we analyzed to gain more knowledge on what we are working on which includes various features such as age, sex, chest pain type, resting blood pressure, cholesterol, and more.
 ### Key Visualizations and Insights
 
 - **Target Distribution**: Distribution of the target variable indicating the presence of heart disease.
@@ -37,8 +37,7 @@ In this notebook we explored our dataset that we analyzed to gain more knowledge
   
 ## MLP and CNN Models
 
-We implemented and compared the performance of MLP and CNN models on the heart disease dataset. and found out that even that the MLP got slightly higher accuracy but its not actually better because when we check the graph in the end of the notebook we can see that the validation and the training got a gap between them which means its overfitting therefore CNN is better in our case.
-
+We implemented and compared the performance of MLP and CNN models on the heart disease dataset. and found out that even that the MLP got slightly higher accuracy but its not actually better because when we check the graph in the end of the notebook we can see that the validation and the training got a gap between them which means its overfitting therefore CNN is better in our case. Therefore, we got to understand that Higher accuracy doesn't necessarily means better result!
 
 
 ## Neural Network weight optimization
