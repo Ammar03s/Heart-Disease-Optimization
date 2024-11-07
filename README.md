@@ -9,7 +9,6 @@
 - [Swarm Optimization](#swarm-optimization)
 - [Conclusion](#conclusion)
 - [Accuracy Summary](#accuracy)
-- [Chang The_Filepath](#Note: Please dont forget to change the file path!)
 
 ## Dataset
 https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
