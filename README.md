@@ -9,6 +9,7 @@
 - [Swarm Optimization](#swarm-optimization)
 - [Conclusion](#conclusion)
 - [Accuracy Summary](#accuracy)
+- [Change_The_Filepath](#Note)
 
 ## Dataset
 https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
@@ -17,13 +18,22 @@ https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
 
 This repository contains a comprehensive analysis and machine learning modeling and some optimization algorithms for a heart disease dataset. The project is divided into several parts:
 
-1. **MLP and CNN Models**: Implementation and comparison of Multi-Layer Perceptron (MLP) and Convolutional Neural Network (CNN) models.
-2. **Neural Network weight optimization**: Application of various optimization algorithmsand comparing them: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models (which we will need to run the randomized_optimization notebook).
-3. **Swarm Optimization**: Utilizing Swarm Optimization to update the weights of a neural network with 1 hidden layer.
-4. **Data Visualization**: Created a visualization notebook to understand the data we are dealing with.
+1. **Data Visualization**: So we can understand more about the data we are dealing with.
+2. **MLP and CNN Models**: Implementation and comparison of Multi-Layer Perceptron (MLP) and Convolutional Neural Network (CNN) models.
+3. **Neural Network weight optimization**: Application of various optimization algorithmsand comparing them: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models (which we will need to run the randomized_optimization notebook).
+4. **Swarm Optimization**: Utilizing Swarm Optimization to update the weights of a neural network with 1 hidden layer.
 
 
+  ## Data Visualization
 
+Simple visualization on the dataset to gain more knowledge on what we are working with.
+### Key Visualizations
+
+- **Target Distribution**: Distribution of the target variable indicating the presence of heart disease.
+- **Age vs. Max Heart Rate**: Scatter plot showing the relationship between age and maximum heart rate, colored by the presence of heart disease.
+- **Correlation Heatmap**: Heatmap revealing correlations between the features.
+- **Sex and Heart Disease**: Comparison of heart disease prevalence between males and females.
+**Note**: each graph have been explained breifly in the Notebook.
   
 ## MLP and CNN Models
 
@@ -68,16 +78,7 @@ Swarm Optimization was used to update the weights of a neural network with one h
 In this file we’ll be training a neural network using particle swarm optimization and For this we’ll be using the standard pyswarms. for optimizing the network’s weights and biases. This aims to demonstrate how the API is capable of handling custom-defined functions. we will be trying to classify the 3 iris species in the Iris Dataset.
 
 
-## Data Visualization
 
-simple visualization on the dataset to gain more knowledge on what we are working with.
-### Key Visualizations
-
-- **Target Distribution**: Distribution of the target variable indicating the presence of heart disease.
-- **Age vs. Max Heart Rate**: Scatter plot showing the relationship between age and maximum heart rate, colored by the presence of heart disease.
-- **Correlation Heatmap**: Heatmap revealing correlations between the features.
-- **Sex and Heart Disease**: Comparison of heart disease prevalence between males and females.
-**Note**: each graph have been explained breifly in the Notebook.
   
 ## Conclusion
 
