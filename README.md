@@ -1,4 +1,4 @@
-# Heart Satalog 
+# Heart Disease Prediction and Optimization.
 
 ## Table of Contents
 - [Dataset](#Dataset)
