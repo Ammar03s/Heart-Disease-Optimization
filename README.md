@@ -85,7 +85,7 @@ This project demonstrates the effectiveness of various ML models and optimizatio
 
 ## Accuracy
 
-| Model/Technique              | Accuracy |
+| Algo.              | Accuracy |
 |------------------------------|----------|
 | MLP Model                    | 90%      |
 | CNN Model                    | 89%      |
