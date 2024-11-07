@@ -15,8 +15,6 @@ https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
 
 ## Overview
 
-This repository contains a comprehensive analysis and machine learning modeling and some optimization algorithms for a heart disease dataset. The project is divided into several parts:
-
 1. **Data Visualization**: So we can understand more about the data we are dealing with.
 2. **MLP and CNN Models**: Implementation and comparison of Multi-Layer Perceptron (MLP) and Convolutional Neural Network (CNN) models.
 3. **Neural Network weight optimization**: Application of various optimization algorithmsand comparing them: Genetic Algorithm (GA), Simulated Annealing (SA), Gradient Descent (GD), and Hill Climbing to improve the models (which we will need to run the randomized_optimization notebook).
